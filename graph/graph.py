@@ -15,8 +15,8 @@ import plotly
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 start ='1561939200' #	Datetime to specify the start of the exported data, in Unix timestamp.DEFAULT is 'NOW - 24 Hours'
-serverName='testnagios'
-hostName = '172.16.10.96'
+serverName='testnagios547'
+hostName = '172.16.1.6'
 serviceDescription = 'FastEthernet0/0 LAN Bandwidth'
 
 timebw=[]
